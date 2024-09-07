@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Css/Styles.css" />
+  </head>
+  <body>
+    <!-- hero section start -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#home">
+            <img src="./Assets/images/aa.jpg" alt="Event Management Logo" />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#partners us">PARTNERS US</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+        <div class="sign-in">
+          <a href="#login">SIGN IN</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section for Event Management Video -->
+    <section class="video-section">
+      <video autoplay muted loop>
+        <source src="./Assets/videos/aa.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- events section start -->
+
+    <section>
+      <center>
+        <h1 style="font-size: 45px; color: #a91d26" data-aos="zoom-in">
+          Events
+        </h1>
+        <form class="search-form" data-aos="flip-down">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search events by name, category, price"
+            data-aos="flip-down"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </center>
+      <div class="event-container" id="event-container">
+        <!-- Event cards will be injected here by JavaScript -->
+      </div>
+      <div id="event-modal" class="modal" data-aos="fade-in">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Event Details</h2>
+          <p id="event-description">Details will be displayed here.</p>
+          <br />
+          <a
+            href="https://sharonsebastian32.github.io/razorpaypaymentgateway_implementation/"
+            target="_blank"
+          >
+            <button class="view-details-btn">Register Now</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- events section end -->
+
+
+    <script src="./"></script>
+  </body>
+</html>

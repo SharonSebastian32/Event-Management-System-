@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Css/Styles.css" />
+
+    <!-- conatct us  -->
+    <link rel="stylesheet" href="/assets/css/ContactUs.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- hero section start -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#home">
+            <img src="./Assets/images/aa.jpg" alt="Event Management Logo" />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#partners us">PARTNERS US</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+        <div class="sign-in">
+          <a href="#login">SIGN IN</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section for Event Management Video -->
+    <section class="video-section">
+      <video autoplay muted loop>
+        <source src="./Assets/videos/aa.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- events section start -->
+
+    <section>
+      <center>
+        <h1 style="font-size: 45px; color: #a91d26" data-aos="zoom-in">
+          Events
+        </h1>
+        <form class="search-form" data-aos="flip-down">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search events by name, category, price"
+            data-aos="flip-down"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </center>
+      <div class="event-container" id="event-container">
+        <!-- Event cards will be injected here by JavaScript -->
+      </div>
+      <div id="event-modal" class="modal" data-aos="fade-in">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Event Details</h2>
+          <p id="event-description">Details will be displayed here.</p>
+          <br />
+          <a
+            href="https://sharonsebastian32.github.io/razorpaypaymentgateway_implementation/"
+            target="_blank"
+          >
+            <button class="view-details-btn">Register Now</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- events section end -->
+
+    <!-- conatct us section -->
+
+    <div class="container-fluid contact_us">
+      <h2>CONTACT-US</h2>
+      <h6>Our team of customer care is ready to hear from you.</h6>
+
+      <div class="row main_section">
+        <div class="col-md-6 section1">
+          <h3>Customer Care</h3>
+          <p>
+            Not sure where to start? Need help adding that extra mojo to your
+            landing page? Just visit our
+            <span>hepl center</span> or get in touch with us:
+          </p>
+          <div class="customer_care">
+            <div class="customer_care_profile">
+              <div class="profile_img">
+                <img src="/assets/images/men.jpg" alt="customer_care" />
+              </div>
+              <div class="profile_details">
+                <h5>John</h5>
+                <h6>Customer Care Lead</h6>
+                <p>+91 7484930837</p>
+              </div>
+            </div>
+            <div class="customer_care_profile">
+              <div class="profile_img">
+                <img src="./Assets/images/men.jpg" alt="customer_care" />
+              </div>
+              <div class="profile_details">
+                <h5>Elizabeth</h5>
+                <h6>Customer Care</h6>
+                <p>+91 748493083758</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 section2">
+          <h3>Reach out of us!</h3>
+          <p>
+            Got a question about us? Are you intereseted in partnering with us?
+            Have some suggestions or just want to say Hi? Contact Us:
+          </p>
+          <form action="">
+            <input
+              class="form-control"
+              type="text"
+              name="first_name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              class="form-control"
+              type="text"
+              name="last_name"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <input
+              class="form-control"
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <textarea
+              class="form-control"
+              name="message"
+              id=""
+              rows="4"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- contact us section -->
+
+    <script src="./Js/Scripts.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

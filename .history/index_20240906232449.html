@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./Assets/images/aa.png" />
+    <title>Star Events</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Css/Styles.css" />
+
+    <!-- conatct us  style -->
+    <link rel="stylesheet" href="/assets/css/ContactUs.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- footer link  style   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- hero section start -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#home">
+            <img src="./Assets/images/aa.png" alt="Event Management Logo" />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#events-sect">EVENTS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#partners us">PARTNERS US</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#contact-us">CONTACT US</a></li>
+        </ul>
+        <div class="sign-in">
+          <a href="#login">SIGN IN</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section for Event Management Video -->
+    <section class="video-section">
+      <video autoplay muted loop>
+        <source src="./Assets/videos/aa.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- about us section  start-->
+    <section id="about" class="about-us-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>ABOUT US</h2>
+          <p>
+            We are a leading event management company specializing in creating
+            unforgettable experiences for our clients. With a team of passionate
+            professionals, we bring ideas to life and turn your vision into
+            reality.
+          </p>
+          <p>
+            Whether it’s a corporate event, wedding, or private celebration, our
+            attention to detail and personalized approach ensures that every
+            event is a success.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./Assets/images/about-us.jpg" alt="About Us" />
+        </div>
+      </div>
+    </section>
+    <!-- about us section  ends-->
+
+    <!-- events section start -->
+
+     <section> 
+      <center>
+        <h1 style="font-size: 45px; color: #a91d26" data-aos="zoom-in">
+          Events
+        </h1>
+        <form class="search-form" data-aos="flip-down">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search events by name, category, price"
+            data-aos="flip-down"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </center>
+      <div class="event-container" id="event-container">
+        <!-- Event cards will be injected here by JavaScript -->
+      </div>
+       <div id="event-model" class="model">
+        <div class="model-content">
+          <span class="close">&times;</span>
+          <h2>Event Details</h2>
+          <p id="event-description">Details will be displayed here.</p>
+          <br />
+          <a
+            href="https://sharonsebastian32.github.io/razorpaypaymentgateway_implementation/"
+            target="_blank"
+          >
+            <button class="view-details-btn-1">Book Event </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- events section end -->
+
+    <!-- partner with us  start-->
+    <div class="container-fluid our_partner" style="background-color: rgb(241, 241, 241);"> 
+      <center>
+        <h2 style="color: #a91d26; font-family: cursive;">OUR-PARTNERS</h2>
+        <h6>Brands That Trust Us</h6>
+       </center> 
+            <div class="row partners">
+                <div class="partner_section">
+
+                    <div class="col-md-3 card_section">
+                        <div class="partner_card">
+                            <img src="./Assets/images/partner1.jpg" alt="OurPartner" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 card_section">
+                        <div class="partner_card">
+                            <img src="./Assets/images/partner2.jpg" alt="OurPartner" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 card_section">
+                        <div class="partner_card">
+                            <img src="./Assets/images/partner3.jpg" alt="OurPartner" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 card_section">
+                        <div class="partner_card">
+                            <img src="./Assets/images/partner4.jpg" alt="OurPartner" />
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    <!-- partner with us  start-->
+
+    <!-- conatct us section -->
+    <div class="container-fluid contact_us" id="contact-us" style="background-color: aliceblue;" >
+      <h2>CONTACT-US</h2>
+      <h6>Our team of customer care is ready to hear from you.</h6>
+
+      <div class="row main_section">
+        <div class="col-md-6 section1">
+          <h3>Customer Care</h3>
+          <p>
+            Not sure where to start? Need help adding that extra mojo to your
+            landing page? Just visit our
+            <span>hepl center</span> or get in touch with us:
+          </p>
+          <div class="customer_care">
+            <div class="customer_care_profile">
+              <div class="profile_img">
+                <img src="./Assets/images/men.jpg" alt="customer_care" />
+              </div>
+              <div class="profile_details">
+                <h5>John</h5>
+                <h6>Customer Care Lead</h6>
+                <p>+91 7484930837</p>
+              </div>
+            </div>
+            <div class="customer_care_profile">
+              <div class="profile_img">
+                <img src="./Assets/images/women.jpg" alt="customer_care" />
+              </div>
+              <div class="profile_details">
+                <h5>Elizabeth</h5>
+                <h6>Customer Care</h6>
+                <p>+91 748493083758</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 section2">
+          <h3>Reach out of us!</h3>
+          <p>
+            Got a question about us? Are you intereseted in partnering with us?
+            Have some suggestions or just want to say Hi? Contact Us:
+          </p>
+          <form action="">
+            <input
+              class="form-control"
+              type="text"
+              name="first_name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              class="form-control"
+              type="text"
+              name="last_name"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <input
+              class="form-control"
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <textarea
+              class="form-control"
+              name="message"
+              id=""
+              rows="4"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- contact us section -->
+<!-- Gallary section starts -->
+   <section></section>
+      <h1 style="text-align: center; font-size: 48px; color: brown">Gallary</h1>
+      <div class="gallery">
+        <div>
+          <img src="./Assets/images/pic1.jpg" alt="" />
+        </div>
+        <div class="v-stretch">
+          <img src="./Assets/images/pic2.jpg" alt="" />
+        </div>
+        <div class="v-stretch">
+          <img src="./Assets/images/pic3.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/images/pic4.jpg" alt="" />
+        </div>
+        <div class="">
+          <img  src="./Assets/images/pic5.jpg" alt="" />
+        </div>
+        <div class="v-stretch">
+          <img src="./Assets/images/pic6.jpg" alt="" />
+        </div>
+        <div class="big-stretch">
+          <img src="./Assets/images/pic7.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/images/pic8.jpg" alt="" />
+        </div>
+        <div class="h-stretch">
+          <img src="./Assets/pic9.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic10.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic11.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic12.jpg" alt="" />
+        </div>
+        <div class="v-stretch">
+          <img src="./Assets/pic13.jpg" alt="" />
+        </div>
+
+        <div class="big-stretch">
+          <img src="./Assets/pic3.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic14.jpg" alt="" />
+        </div>
+        <div class="h-stretch">
+          <img src="./Assets/pic15.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic16.jpg" alt="" />
+        </div>
+        <div class="big-stretch">
+          <img src="./Assets/pic17.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic18.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic19.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="./Assets/pic20.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+<!-- Gallary Section Ends -->
+    <!-- footer section start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-col">
+            <h4>Star Events</h4>
+            <p>
+              Star Events is the number one event conducting company in Kerala.
+              We are conducting many types of events all over the state since 15
+              years and created 5000 above satisfied customers. Celebrate your
+              moments with star events.
+            </p>
+          </div>
+
+          <div class="col-md-3 footer-col">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Partner Us</a></li>
+              <li><a href="">Gallery</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-col">
+            <h4>Our Services</h4>
+            <ul>
+              <li>Event Booking</li>
+              <li>Anchoring</li>
+              <li>Catering</li>
+              <li>Advertising</li>
+              <li>Marketing</li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-col">
+            <h4>Your Feedback</h4>
+            <form action="">
+              <input
+                type="text"
+                placeholder="Enter your name"
+                class="inputname"
+              />
+              <input
+                type="email"
+                placeholder="Enter your email id"
+                class="inputemail"
+              />
+              <input
+                type="text"
+                placeholder="Write your feedback or suggestions"
+                class="inputfs"
+              />
+              <input type="submit" value="SUBMIT" class="inputSubmit" />
+            </form>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <p>&#169; 2024 <b>Star Events</b>. All Rights Reserved</p>
+          </div>
+
+          <div class="col-md-6 text-md-end socialIcons">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- footer setcion section end -->
+
+    <script src="./Js/Scripts.js"></script>
+
+
+    <!-- our partners -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

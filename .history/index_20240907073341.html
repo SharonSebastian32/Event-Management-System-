@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./Assets/images/aa.png" />
     <title>Star Events</title>
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link rel="stylesheet" href="./Css/Styles.css" />
+
     <!-- conatct us  style -->
     <link rel="stylesheet" href="/assets/css/ContactUs.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <!-- footer link  style   -->
     <link
       rel="stylesheet"
@@ -26,17 +27,11 @@
       referrerpolicy="no-referrer"
     />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- upcoming events  -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- customer review -->
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <!-- aos scroll animations -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- hero section start -->
     <nav>
-      <div class="nav-container"  data-aos="flip-up">
+      <div class="nav-container">
         <div class="logo">
           <a href="#home">
             <img src="./Assets/images/aa.png" alt="Event Management Logo" />
@@ -70,7 +65,7 @@
     <!-- about us section  start-->
     <section id="about" class="about-us-section">
       <div class="about-container">
-        <div class="about-text" data-aos="fade-right" >
+        <div class="about-text">
           <h2>ABOUT US</h2>
           <p>
             We are a leading event management company specializing in creating
@@ -84,7 +79,7 @@
             event is a success.
           </p>
         </div>
-        <div class="about-image" data-aos="zoom-in">
+        <div class="about-image">
           <img src="./Assets/images/about-us.jpg" alt="About Us" />
         </div>
       </div>
@@ -92,9 +87,11 @@
     <!-- about us section  ends-->
 
     <!-- events section start -->
-<center> 
+
+     <section id="events"> 
+      <center>
         <h1 style="font-size: 45px; color: #a91d26" data-aos="zoom-in">
-        EVENTS
+          Events
         </h1>
         <form class="search-form" data-aos="flip-down">
           <input
@@ -106,39 +103,35 @@
           />
           <button type="submit">Search</button>
         </form>
-</center>
- <section id="events" data-aos="zoom-in"> 
-    <div class="event-wrapper">
-        <div class="event-container" id="event-container">
-            <!-- Event cards will be injected here by JavaScript -->
-        </div>
-        <div class="upcoming-events" id="upcoming-events">
-          <center><h1>Upcoming Events</h1></center> 
-        
-         </div>
-    </div>
-
-    <div id="event-model" class="model">
+      </center>
+      <div class="event-container" id="event-container">
+        <!-- Event cards will be injected here by JavaScript -->
+      </div>
+       <div id="event-model" class="model">
         <div class="model-content">
-            <span class="close">&times;</span>
-            <h2>Event Details</h2>
-            <p id="event-description">Details will be displayed here.</p>
-            <br />
-            <a href="https://sharonsebastian32.github.io/razorpaypaymentgateway_implementation/" target="_blank">
-                <button class="view-details-btn-1">Book Event </button>
-            </a>
+          <span class="close">&times;</span>
+          <h2>Event Details</h2>
+          <p id="event-description">Details will be displayed here.</p>
+          <br />
+          <a
+            href="https://sharonsebastian32.github.io/razorpaypaymentgateway_implementation/"
+            target="_blank"
+          >
+            <button class="view-details-btn-1">Book Event </button>
+          </a>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
+
     <!-- events section end -->
 
     <!-- partner with us  start-->
-    <div class="container-fluid our_partner"  style="background-color: rgb(241, 241, 241);"> 
-      <center  >
-        <h2 data-aos="fade-up" style="color: #a91d26;">OUR-PARTNERS</h2>
-        <h6 data-aos="fade-up">Brands That Trust Us</h6>
-      </center> 
-       <div class="row partners">
+    <div class="container-fluid our_partner" style="background-color: rgb(241, 241, 241);"> 
+      <center>
+        <h2 style="color: #a91d26; font-family: cursive;">OUR-PARTNERS</h2>
+        <h6>Brands That Trust Us</h6>
+       </center> 
+            <div class="row partners">
                 <div class="partner_section">
 
                     <div class="col-md-3 card_section">
@@ -164,84 +157,16 @@
                     
                 </div>
             </div>
-      </div>
-    </div>
-  <!-- partner with us  start-->
+        </div>
+        </div>
 
-  <!-- customer review start -->
-    <div class="Testimonials-card"> 
-      <h1 style="color: #a91d26;" data-aos="fade-up">Customer Reviews</h1>
-      <h3  data-aos="fade-up">What Our customers are Saying...</h3>
-    </div>
-    <div class="Testimonial-container">
-      <div class="card"  data-aos='fade-in'>
-        <div class="content">
-          <p class="quote">
-            <span class="quote-symbol">“</span>
-            I've always struggled to find interesting events in my area, but
-            [STAR EVENT] has completely changed that for
-            me. The variety of events and the ease of searching through them has
-            made discovering new activities a breeze. I love the personalized
-            recommendations—it feels like the platform really understands my
-            interests. Thanks to [STAR EVENT], my social
-            calendar is always full! 
-          <img src="./Assets/images/img4.jpg" class="profile" alt="Emma J." />
-          <h3>Emma J.</h3>
-          <p class="role">Event Enthusiast</p>
-          <div class="social-icons">
-            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div> 
-      <div class="card"  >
-        <div class="content">
-          <p class="quote">
-            <span class="quote-symbol">“</span>As an event organizer, I needed a reliable platform to showcase my
-            events and reach a wider audience. [STAR EVENT]
-            has been an invaluable tool for me. The event submission process is
-            straightforward, and the visibility I’ve gained through this site
-            has been fantastic. It’s a game-changer for promoting and managing
-            events, and I highly recommend it to fellow organizers.
-          </p>
-          <img src="./Assets/images/img3.jpg" class="profile" alt="David M." />
-          <h3>David M.</h3>
-          <p class="role">Event Organizer</p>
-          <div class="social-icons">
-            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="content">
-          <p class="quote">
-            <span class="quote-symbol">“</span>Using [STAR EVENT] to promote our local
-            business’s events has been a fantastic experience. The interactive
-            map feature helps our customers find us easily, and the ticketing
-            system has streamlined our sales process. The interactive
-            map feature helps our customers find us easily, and the ticketing
-            system has streamlined our sales process. 
-          </p>
-          <img src="./Assets/images/imgg2.jpg" class="profile" alt="Sarah L." />
-          <h3>Sarah L.</h3>
-          <p class="role">Local Business Owner</p>
-          <div class="social-icons">
-            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-     <!-- customer review start  -->
+
+    <!-- partner with us  start-->
 
     <!-- conatct us section -->
-    <div class="container-fluid contact_us" id="contact-us" style="background-color: rgb(240, 240, 240);" >
-      <h2  data-aos="zoom-in">CONTACT-US</h2>
-      <h6 data-aos="zoom-in">Our team of customer care is ready to hear from you.</h6>
+    <div class="container-fluid contact_us" id="contact-us" style="background-color: aliceblue;" >
+      <h2>CONTACT-US</h2>
+      <h6>Our team of customer care is ready to hear from you.</h6>
 
       <div class="row main_section">
         <div class="col-md-6 section1">
@@ -252,7 +177,7 @@
             <span>hepl center</span> or get in touch with us:
           </p>
           <div class="customer_care">
-            <div class="customer_care_profile"  data-aos="zoom-in-right">
+            <div class="customer_care_profile">
               <div class="profile_img">
                 <img src="./Assets/images/men.jpg" alt="customer_care" />
               </div>
@@ -262,7 +187,7 @@
                 <p>+91 7484930837</p>
               </div>
             </div>
-            <div class="customer_care_profile"  data-aos="zoom-in-right">
+            <div class="customer_care_profile">
               <div class="profile_img">
                 <img src="./Assets/images/women.jpg" alt="customer_care" />
               </div>
@@ -274,14 +199,13 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 section2" >
+        <div class="col-md-6 section2">
           <h3>Reach out of us!</h3>
           <p>
             Got a question about us? Are you intereseted in partnering with us?
             Have some suggestions or just want to say Hi? Contact Us:
           </p>
-          <form action="" data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+          <form action="">
             <input
               class="form-control"
               type="text"
@@ -323,9 +247,11 @@
       </div>
     </div>
     <!-- contact us section -->
+
+
     
 <!-- Gallary section starts -->
-   <section id="Gallary" style="background-color: rgb(255, 247, 247);"> 
+   <section id="Gallary"> 
       <h1 style="text-align: center; font-size: 48px; color: brown">Gallary</h1>
       <div class="gallery">
         <div>
@@ -472,18 +398,22 @@
         </div>
       </div>
     </footer>
-    <!-- upcomiong section  -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- footer setcion section end -->
-    <script src="./Js/Scripts.js"></script>
-    <!-- our partners -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- aos animation js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
 
+
+
+
+
+
+
+
+
+    <!-- footer setcion section end -->
+
+    <script src="./Js/Scripts.js"></script>
+
+
+    <!-- our partners -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

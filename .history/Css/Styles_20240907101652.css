@@ -236,9 +236,8 @@ nav {
  .upcoming-events {
      width: 30%;
      margin-right: 25px;
-      background-color: #f0eed6;
+      background-color: #fffcdb;
       border-radius: 10px;
-      margin-bottom:20px;
  }
 
  .upcoming-events h2 {
